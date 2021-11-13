@@ -11,41 +11,41 @@ public class Calc {
         double a = scanner.nextDouble();// присваиваем первое введеное значение для переменной "a"
         System.out.println("Введите второе число");
         double b = scanner.nextDouble();// присваиваем первое введеное значение для переменной "b"
-        String action = args [0];
+        String action = args[0];
 
-        if(args[0].equals("+")) // сложение
+        if (args[0].equals("+")) // сложение
         {
-            System.out.println("Ответ: "+ (a+b));
+            System.out.println("Ответ: " + (a + b));
         }
 
-        if(args[0].equals("-")) //вычитание
+        if (args[0].equals("-")) //вычитание
         {
-            System.out.println("Ответ: "+ (a-b));
+            System.out.println("Ответ: " + (a - b));
         }
 
-        if(args[0].equals("*")) //умножение
+        if (args[0].equals("*")) //умножение
         {
-            System.out.println("Ответ: "+ (a * b));
+            System.out.println("Ответ: " + (a * b));
         }
 
-        if(args[0].equals("/")) //деление
+        if (args[0].equals("/")) //деление
         {
-            System.out.println("Ответ: "+ (a / b));
+            System.out.println("Ответ: " + (a / b));
         }
 
-        if(args[0].equals ("/") && b == 0)  // деление на ноль
+        if (args[0].equals("/") && b == 0)  // деление на ноль
         {
-            System.out.println ("Деление на ноль невозможно");
+            System.out.println("Деление на ноль невозможно");
         }
 
-        if(args[0].equals("%")) //остаток от деления
+        if (args[0].equals("%")) //остаток от деления
         {
-            System.out.println("Ответ: "+ (a / b));
+            System.out.println("Ответ: " + (a / b));
         }
 
-        if(args[0].equals("^")) //возведение в степень
+        if (args[0].equals("^")) //возведение в степень
         {
-            System.out.println("Ответ: " + (Math.pow(a,b)));
+            System.out.println("Ответ: " + (Math.pow(a, b)));
         }
 
     }
